@@ -154,16 +154,7 @@ const TransactionForm = () => {
             <option value={2}>Medium Complexity</option>
             <option value={3}>High Complexity</option>
           </select>
-        </          <select
-            value={complexity}
-            onChange={(e) => setComplexity(e.target.value)}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          >
-            <option value={1}>Low Complexity</option>
-            <option value={2}>Medium Complexity</option>
-            <option value={3}>High Complexity</option>
-          </select>
-        </div>
+                </div>
         {error && <p className="text-red-500 text-xs italic">{error}</p>}
         <div className="flex items-center justify-between">
           <button
