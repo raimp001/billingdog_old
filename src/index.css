@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+form {
+  margin: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}

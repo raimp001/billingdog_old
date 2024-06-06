@@ -26,8 +26,7 @@ export const getTransactions = async () => {
 
 export const searchICDCodes = async (query) => {
   try {
-    // Replace this with a real API endpoint or a mock API service
-    const response = await axios.get(`https://api.mocki.io/v1/270c64e6?q=${query}`);
+    const response = await axios.get(`https://api.example.com/icd10?q=${query}`); // Replace with actual API
     return response.data;
   } catch (error) {
     console.error('Error fetching ICD codes:', error);
